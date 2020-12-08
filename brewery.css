@@ -1,0 +1,89 @@
+body{
+	background-color: black;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.navbar{
+	height: 80px;
+	font-size: 30px;
+	background-color: black;
+}
+
+#navbar{
+	background-color: black !important;
+}
+
+.header{
+	background-image: url(https://images.unsplash.com/photo-1494346480775-936a9f0d0877?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1303&q=80);
+	height: 700px;
+	width: 80%;
+	background-position: center center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.header-background{
+	background-color: white;
+	width: 100%;
+	margin: 0;
+}
+
+.title{
+	padding-top: 80px;
+	color: white;
+	font-weight: 700;
+	font-size: 50px;
+	text-shadow: 2px 2px 0px grey, 5px 4px 0px rgba(3,3,3,0.15);
+}
+
+#col-1{
+	text-align: center;
+}
+
+.beer-pic{
+	height: 550px;
+	width: auto;
+	margin: 0 auto 0 auto;
+}
+
+#col-2{
+	background-color: white;
+	height: 550px;
+	margin-top: 0;
+	text-align: center;
+
+}
+
+.people-pic{
+	height: 550px;
+	width: auto;
+	margin: 0 auto;
+}
+
+h5{
+	font-weight: 600;
+	font-size: 25px;
+}
+
+#col-3{
+	background-color: white;
+	height: 550px;
+
+}
+
+.our-style{
+	margin: 100px 75px;
+}
+
+.btn-secondary{
+	margin-top: 40px;
+	background-color: black;
+}
+
+.btn-secondary:hover{
+	background-color: #424242;
+}
