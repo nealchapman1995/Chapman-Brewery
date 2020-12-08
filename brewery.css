@@ -40,6 +40,13 @@ body{
 	text-shadow: 2px 2px 0px grey, 5px 4px 0px rgba(3,3,3,0.15);
 }
 
+.location{
+	padding-top: 480px;
+	color: white;
+	font-size: 45px;
+	text-shadow: 2px 2px 0px grey, 5px 4px 0px rgba(3,3,3,0.15);
+}
+
 #col-1{
 	text-align: center;
 }
@@ -86,4 +93,21 @@ h5{
 
 .btn-secondary:hover{
 	background-color: #424242;
+}
+
+#map {
+  height: 350px;
+  /* The height is 400 pixels */
+  width: 450px;
+  /* The width is the width of the web page */
+  margin-bottom: 75px;
+  margin-top: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 7%;
+}
+
+#location{
+	text-align: center;
+	color: white;
 }

@@ -4,6 +4,11 @@
   <title>Chapman Brewery</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="brewery.css">
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCD1DCv5CsFLLKxYIpwWC9dlgkXwvcQBcM&callback=initMap&libraries=&v=weekly"
+      defer
+  ></script>
+  <script type="text/javascript" src="brewery.js"></script>
 
 </head>
 <body>
@@ -29,6 +34,7 @@
 <div class="header-background">
   <div class="header">
     <h1 class="title">Chapman Brewing Company</h1>
+    <h2 class="location">Hand Crafted in Colorado</h2>
   </div>
 </div>
   
@@ -42,6 +48,18 @@
         <p>Alpine Dog is a term coined by Coloradans. While we do love our dogs, this term goes deeper than that. It is a reflection of the people and our love of the mountains. It’s where we go to play; it’s where we go to exercise, relax, make friends and have fun getting away. Whether it’s mountain biking, snowboarding, hiking 14ers, or just enjoying a brew and a view; we are the Alpine Dogs because of our passion for the high country!</p>
         <button class="btn btn-secondary">Find out more!</button>
       </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12 col-md-6" id="col-3">
+    <h4>Our Location</h4>
+  </div>
+  <div class="col-12 col-md-6" id="col-4">
+      <div class="our-style" id="location">
+        <h4>Location</h4>
+        <div id="map"></div>
+      </div>
+    </div>
   </div>
 </div>
 
