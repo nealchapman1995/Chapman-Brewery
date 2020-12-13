@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+}
+
+.navbar{
+	height: 80px;
+	font-size: 30px;
+	background-color: black;
+}
+
+#navbar{
+	background-color: black !important;
+}
