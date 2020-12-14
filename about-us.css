@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: white;
 }
 
 .navbar{
@@ -10,4 +10,15 @@ body{
 
 #navbar{
 	background-color: black !important;
+}
+
+.beer-pic{
+	height: 450px;
+	width: auto;
+	padding-top: 100px;
+}
+
+#about-us{
+	text-align: center;
+	padding-top: 100px;
 }
