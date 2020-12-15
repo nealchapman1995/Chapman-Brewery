@@ -13,12 +13,19 @@ body{
 }
 
 .beer-pic{
-	height: 450px;
+	height: 650px;
 	width: auto;
 	padding-top: 100px;
+	padding-left: 200px;
 }
 
 #about-us{
 	text-align: center;
 	padding-top: 100px;
+	padding-right: 250px;
+	padding-left: 50px;
+}
+
+p{
+	margin-top: 50px;
 }
