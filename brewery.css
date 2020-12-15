@@ -17,7 +17,7 @@ body{
 }
 
 .header{
-	background-image: url(https://images.unsplash.com/photo-1494346480775-936a9f0d0877?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1303&q=80);
+	background-image: url(https://images.unsplash.com/photo-1508645255802-d7de28c18481?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
 	height: 700px;
 	width: 80%;
 	background-position: center center;
@@ -41,7 +41,7 @@ body{
 }
 
 .location{
-	padding-top: 480px;
+	padding-top: 150px;
 	color: white;
 	font-size: 45px;
 	text-shadow: 2px 2px 0px grey, 5px 4px 0px rgba(3,3,3,0.15);

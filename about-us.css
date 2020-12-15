@@ -5,11 +5,11 @@ body{
 .navbar{
 	height: 80px;
 	font-size: 30px;
-	background-color: black;
+	background-color: white;
 }
 
 #navbar{
-	background-color: black !important;
+	background-color: white !important;
 }
 
 .beer-pic{
