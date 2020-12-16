@@ -1,5 +1,5 @@
 body{
-	background-color: black;
+	background-color: #14213d;
 	width: 100%;
     margin: 0px;
     padding: 0px;
@@ -33,18 +33,20 @@ body{
 }
 
 .title{
-	padding-top: 80px;
+	padding-top: 50px;
 	color: white;
 	font-weight: 700;
 	font-size: 50px;
-	text-shadow: 2px 2px 0px grey, 5px 4px 0px rgba(3,3,3,0.15);
+	
 }
 
 .location{
-	padding-top: 150px;
 	color: white;
-	font-size: 45px;
-	text-shadow: 2px 2px 0px grey, 5px 4px 0px rgba(3,3,3,0.15);
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	font-size: 20px;
+	
 }
 
 #col-1{
@@ -55,14 +57,17 @@ body{
 	height: 550px;
 	width: auto;
 	margin: 0 auto 0 auto;
+	border-radius: 3%;
+	padding-bottom: 10px;
 }
 
 #col-2{
-	background-color: white;
+	background-color: #14213d;
 	height: 550px;
 	margin-top: 0;
 	text-align: center;
-
+	color: white;
+	padding-bottom: 10px;
 }
 
 .people-pic{
@@ -77,9 +82,14 @@ h5{
 }
 
 #col-3{
-	background-color: white;
+	color: black;
 	height: 550px;
+	background-color: #e5e5e5;
+}
 
+#col-4{
+	background-color: #e5e5e5;
+	color: black;
 }
 
 .our-style{
@@ -104,7 +114,8 @@ h5{
   margin-top: 25px;
   margin-right: auto;
   margin-left: auto;
-  border-radius: 7%;
+  border: 3px solid #14213d;
+  border-radius: 5%;
 }
 
 #location{
@@ -114,7 +125,7 @@ h5{
 
 .location-text{
 	text-align: center;
-	margin: 100px 150px;
+	margin: 50px 150px;
 }
 
 #location-header{
@@ -122,3 +133,16 @@ h5{
 	font-size: 40px;
 	margin-top: 100px;
 }
+
+footer{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#btn-about-us{
+	border:none;
+}
+
+

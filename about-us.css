@@ -1,15 +1,20 @@
 body{
-	background-color: white;
+	background-color: #e5e5e5;
+	width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
 .navbar{
 	height: 80px;
 	font-size: 30px;
-	background-color: white;
+	background-color: black;
 }
 
 #navbar{
-	background-color: white !important;
+	background-color: black !important;
+	width: 100%;
 }
 
 .beer-pic{
@@ -26,6 +31,45 @@ body{
 	padding-left: 50px;
 }
 
-p{
+.about-us{
 	margin-top: 50px;
+}
+
+footer{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #14213d
+}
+
+#founders{
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+
+.card{
+	margin-right: 200px;
+	border: none;
+	margin-left: 200px;
+}
+
+.card-img-top{
+	height: 350px;
+	width: auto;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    margin-top: 50px;
+}
+
+.card-body{
+	background-color: #e5e5e5;
+}
+
+.our-founders{
+	text-align: center;
 }
