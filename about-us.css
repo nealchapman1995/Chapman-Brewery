@@ -4,17 +4,18 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    color: #14213d;
 }
 
 .navbar{
 	height: 80px;
 	font-size: 30px;
-	background-color: black;
 }
 
 #navbar{
-	background-color: black !important;
+	background-color: #e5e5e5 !important;
 	width: 100%;
+	color: #14213d !important;
 }
 
 .beer-pic{
