@@ -18,8 +18,7 @@ body{
 }
 
 .header{
-	background-image: url(https://images.unsplash.com/photo-1599408169542-620fc453382c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80);
-	height: 700px;
+	height: 750px;
 	width: 80%;
 	background-size: 100%;
 	background-position: center center;
@@ -28,18 +27,29 @@ body{
 	text-align: center;
 	margin-top: 0px;
 	border-radius: 1%;
-	color: black;
+	color: #14213d !important;
+}
+
+
+.header-pic{
+	height: 620px;
+	width: auto;
+	margin-top: 50px;
+	border: 3px solid #14213d;
+	border-radius: 6px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .header-background{
-	background-color:  #14213d;
+	background-color:  #e5e5e5;
 	color: black;
 	width: 100%;
 	margin: 0;
 }
 
 .title{
-	color: #e5e5e5;
+	color: #14213d;
 	font-weight: 700;
 	font-size: 50px;
 	width: 700px;
